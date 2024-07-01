@@ -1,8 +1,11 @@
 let numbers = [];
-let btn = document.getElementById('btn')
+let btn = document.getElementById('btn');
 
 
 btn.addEventListener('click', function () {
+    if (numbers.length >= 5) {
+        btn.disabled = true;
+    }
 
     let number = document.getElementById('number').value;
     console.log(number)
