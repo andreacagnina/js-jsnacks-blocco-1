@@ -15,5 +15,5 @@ Chiedi per 6 volte all’utente di inserire un numero, se è dispari inseriscilo
 -creo un array vuoto
 -applico una variabile agli elementi html sui quali voglio agire
 -tramite input chiedo all'utente di inserire un numero
--attraverso un if controllo che il valore inserito sia un numero dispari se lo è lo inserisco nell'array
+-attraverso un  ciclo for con if controllo che il valore inserito sia un numero dispari se lo è lo inserisco nell'array
 -altrimenti non lo inserisco
