@@ -7,7 +7,7 @@ btn.addEventListener('click', function () {
         btn.disabled = true;
     }
 
-    let number = document.getElementById('number').value;
+    let number = Number(document.getElementById('number').value);
     console.log(number)
 
     if (number % 2 !== 0) {

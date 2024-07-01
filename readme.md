@@ -18,3 +18,15 @@ Chiedi per 6 volte all’utente di inserire un numero, se è dispari inseriscilo
 -attraverso un if di controllo stabilisco che se l'array ha 6 elementi, disattivo il btn
 -attraverso un  if controllo che il valore inserito sia un numero dispari se lo è lo inserisco nell'array
 -altrimenti non lo inserisco
+
+SNACK 3:
+Chiedi un numero di 4 cifre all’utente
+e calcola la somma di tutte le cifre che compongono il numero.
+
+-chiedo tramite input un numero di 4 cifre all'utente
+-dichiaro la variabile di somma
+-al click del bottone recupero il valore all'interno dell'input
+-scompongo il numero unico in cifre singole inserendole in un array
+-avvio un ciclo for dove sommo ogni index 
+mostro il risultato
+
